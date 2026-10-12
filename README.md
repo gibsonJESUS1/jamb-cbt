@@ -70,3 +70,7 @@ These are original questions based on topics in the provided syllabus PDFs, not 
 Edit src/lib/questions.js to add reviewed questions with four options, a zero-based answer index and an explanation. The src/lib/practice.js module isolates the scoring and attempt logic to support future database integration. Add secure server authentication and a database when moving beyond local profiles.
 
 Actual device visual testing is still needed before inviting a training group.
+
+## Topic practice
+
+Choose a subject, then optionally choose a topic. All topics remains the default. Only questions matching both selections are included. The available count is shown before starting; requests above that count use all matching questions without duplication. The selected topic is retained in results and attempt history. Existing attempts remain readable.
