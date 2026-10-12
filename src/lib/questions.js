@@ -1,3 +1,4 @@
+import EXPANSION from './question-expansion.js';
 const BANK=[];
 function add(subject,topic,rows){rows.forEach(([q,options,answer,explanation])=>BANK.push({id:BANK.length+1,subject,topic,q,options,answer,explanation,source:'Original practice • uploaded syllabus'}));}
 add('Use of English','Lexis and Structure',[
@@ -105,4 +106,4 @@ add('Physics','Waves and Electricity',[
 ['A radioactive sample has a half-life of 4 hours. What fraction remains after 8 hours?',['1/2','1/4','1/8','3/4'],1,'Two half-lives leave (½)² = ¼ of the initial undecayed nuclei.']
 ]);
 
-export default BANK;
+export default [...BANK,...EXPANSION];

@@ -40,7 +40,7 @@ In Vercel, choose Add New Project, import the GitHub repository and use the Next
 
 - Student registration and login using a username and 4–8 digit local PIN.
 - Separate attempt history for each student in the same browser.
-- 80 original syllabus-based questions, 20 per subject: Use of English, Biology, Chemistry and Physics.
+- 200 original syllabus-based questions, 50 per subject: Use of English, Biology, Chemistry and Physics.
 - Subject or mixed practice, question count and time limit.
 - Question navigator, flags and next/previous controls.
 - Saved progress across refreshes and sign-out; the timer continues while away.
@@ -74,3 +74,9 @@ Actual device visual testing is still needed before inviting a training group.
 ## Topic practice
 
 Choose a subject, then optionally choose a topic. All topics remains the default. Only questions matching both selections are included. The available count is shown before starting; requests above that count use all matching questions without duplication. The selected topic is retained in results and attempt history. Existing attempts remain readable.
+
+## Expanded syllabus practice bank
+
+The bank now contains 200 original questions across 52 selectable practice topics, with 50 questions per subject. Forty new topics have three starter questions each; the original topics retain their questions. Questions cover additional syllabus areas including classification, adaptation, respiration, reproduction, germination, coordination, conservation, periodicity, nuclear chemistry, solubility, pollution, electrolysis, equilibrium, vectors, moments, machines, fluids, optics, magnetism, electronics and English language subtopics.
+
+This is a first expansion, not exhaustive syllabus coverage. The supplied English syllabus refers to an approved reading text but does not identify a title in its contents; no reading-text questions have been invented. Long comprehension passages and additional scientific subtopics remain to be developed. Original IDs 1–80 are preserved and expansion IDs start at 1001. Saved attempts contain their own question snapshots and remain readable.
